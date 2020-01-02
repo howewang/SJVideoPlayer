@@ -738,9 +738,9 @@ SJEdgeControlButtonItemTag const SJEdgeControlLayerCenterItem_Replay = 40000;
     [self.bottomAdapter addItem:progressItem];
 
     // 全屏按钮
-    SJEdgeControlButtonItem *fullItem = [SJEdgeControlButtonItem placeholderWithType:SJButtonItemPlaceholderType_49x49 tag:SJEdgeControlLayerBottomItem_FullBtn];
-    [fullItem addTarget:self action:@selector(_fullItemWasTapped)];
-    [self.bottomAdapter addItem:fullItem];
+    //SJEdgeControlButtonItem *fullItem = [SJEdgeControlButtonItem placeholderWithType:SJButtonItemPlaceholderType_49x49 tag:SJEdgeControlLayerBottomItem_FullBtn];
+    //[fullItem addTarget:self action:@selector(_fullItemWasTapped)];
+    //[self.bottomAdapter addItem:fullItem];
 
     [self.bottomAdapter reload];
 }
